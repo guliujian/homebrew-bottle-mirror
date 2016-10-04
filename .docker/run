@@ -2,7 +2,7 @@
 export PATH="$HOME/.linuxbrew/bin:$PATH"
 LOGFILE=${LOGFILE:-"/var/log/homebrew-bottles.log"}
 (
-    cd ~/.linuxbrew/Library/Taps/homebrew/homebrew-core
+    cd ~/.linuxbrew/Library/Taps/homebrew/homebrew-versions
     if [ ! -z $HOMEBREW_TAP ]; then
         git remote set-url origin git://github.com/Homebrew/homebrew-${HOMEBREW_TAP}.git
     fi

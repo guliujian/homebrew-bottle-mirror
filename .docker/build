@@ -7,4 +7,8 @@ mkdir -p ~/.linuxbrew/Library/Taps/homebrew/homebrew-core
 cd ~/.linuxbrew/Library/Taps/homebrew/homebrew-core
 git init
 git remote add origin git://github.com/homebrew/homebrew-core.git
+mkdir -p ~/.linuxbrew/Library/Taps/homebrew/homebrew-versions
+cd ~/.linuxbrew/Library/Taps/homebrew/homebrew-versions
+git init
+git remote add origin https://github.com/Homebrew/homebrew-versions.git
 export PATH="$HOME/.linuxbrew/bin:$PATH"
